@@ -1,0 +1,7 @@
+# Per-machine calibration and run output
+config.json
+ref_*.png
+logs/
+alerts/
+hang_report.txt
+__pycache__/
