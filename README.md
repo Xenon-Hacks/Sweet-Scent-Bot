@@ -1,4 +1,4 @@
-# Sweet Scent Shiny Hunter (Pokemon Crystal)
+# Sweet Scent Bot (Pokemon Crystal)
 
 Uses **Sweet Scent** from the field menu to force a wild encounter, checks
 whether it's shiny, flees if not, and repeats -- anywhere wild Pokemon can
