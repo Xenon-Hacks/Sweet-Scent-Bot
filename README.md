@@ -11,8 +11,7 @@ console click-freeze.
 
 ## What's new in v26: sound check retuned on the real 3DS
 
-- **Tested on real forced shinies on the 3DS** (a patched game that makes
-  every wild Pokemon shiny): the flash check caught 35 of 35, with No Skip
+- **Tested on a real forced 3DS**: the flash check caught 35 of 35, with No Skip
   Frame on and off (correlation -0.99 to -1.00, all 5 inverted frames).
 - **The sound check scored them far lower than the emulator did:** 0.12-0.23,
   so the old 0.20 line missed 21 of 35. Over NTR-VC's shared audio,
