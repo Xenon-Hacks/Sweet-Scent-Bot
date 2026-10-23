@@ -18,7 +18,7 @@ is ever not open, it stops immediately -- a direction is never sent to
 the overworld.
 
 Run from the overworld with no menu open:
-    py test_menu_input.py --ip 192.168.4.31
+    py test_menu_input.py --ip <3DS IP>
 Takes about 2-3 minutes (30 presses). Close InputRedirectionClient-Qt first.
 """
 

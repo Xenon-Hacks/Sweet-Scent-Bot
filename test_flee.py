@@ -12,7 +12,7 @@ without ref_cursor_run.png.
 Walk into a wild battle BY HAND first (any Pokemon), with the
 "Wild X appeared!" message showing, THEN run:
 
-    py test_flee.py --ip 192.168.4.31
+    py test_flee.py --ip <3DS IP>
 """
 
 import argparse

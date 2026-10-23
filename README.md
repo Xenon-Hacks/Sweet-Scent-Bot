@@ -290,8 +290,12 @@ says at startup whether the alert is on.
 ## Running it
 
 ```
-py sweet_scent_bot.py --ip 192.168.4.31
+py sweet_scent_bot.py --ip <3DS IP>
 ```
+
+Replace `<3DS IP>` with your own 3DS's IP address, the same one you
+enter in NTR-VC to connect (your router's list of connected devices
+shows it too).
 
 Start on the overworld, on a tile where wild Pokemon appear, with no
 menu open. Each Sweet

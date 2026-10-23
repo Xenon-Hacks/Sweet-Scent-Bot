@@ -14,7 +14,7 @@ it; either check finding a shiny stops the bot.
 Whenever it stops it can also ping your phone on Discord (alarm.py).
 
 Start NTR-VC (the frame-sharing NTRViewer-HR) and run calibrate.py first. Then:
-    py sweet_scent_bot.py --ip 192.168.4.31
+    py sweet_scent_bot.py --ip <3DS IP>
 
 Safety rules:
   * The confirming A in battle is only pressed after the cursor is
