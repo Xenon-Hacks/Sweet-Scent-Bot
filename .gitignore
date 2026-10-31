@@ -5,3 +5,5 @@ logs/
 alerts/
 hang_report.txt
 __pycache__/
+debug_sweet_scent/
+shared_frame_test.png
