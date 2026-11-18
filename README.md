@@ -24,14 +24,19 @@ tested is in [CHANGELOG.md](CHANGELOG.md).
 
 - **A New 3DS or New 2DS** (NTR-HR streaming needs a "New" model) with
   [Luma3DS](https://3ds.hacks.guide/) custom firmware and
-  **[NTR-HR](https://github.com/xzn/ntr-hr)** for wireless streaming. The
+  **[NTR-HR-VC](https://github.com/Xenon-Hacks/NTR-HR-VC)** for wireless
+  streaming. NTR-HR-VC is our build of NTR-HR (a fork of
+  [xzn/ntr-hr](https://github.com/xzn/ntr-hr)) with fixes for stream drops
+  during long runs and an SD card log; its
+  [changes page](https://github.com/Xenon-Hacks/NTR-HR-VC/blob/full-width/docs/NTR-HR-VC-CHANGES.md)
+  lists the builds. The
   [3DS wireless streaming guide](https://wiki.hacks.guide/wiki/3DS:Wireless_streaming)
-  covers setting it up.
+  covers setting up NTR-HR in general.
 - **Pokemon Crystal** from the 3DS Virtual Console.
 - **A Windows PC** on the same network as the 3DS.
 - **Python 3.9 or newer** ([python.org](https://www.python.org/downloads/)).
-- **[NTR-VC](https://github.com/Xenon-Hacks/NTR-VC)**, a fork of
-  NTRViewer-HR that shares the game picture and audio with the bot.
+- **[NTR-VC](https://github.com/Xenon-Hacks/NTR-VC)**, our fork of
+  [NTRViewer-HR](https://github.com/xzn/ntrviewer-hr) that shares the game picture and audio with the bot.
   Download `NTR-VC-Win-x64.zip` from its
   [Releases](https://github.com/Xenon-Hacks/NTR-VC/releases) page, unzip
   it and run `ntrviewer.exe`. The original NTRViewer-HR won't work.
@@ -235,7 +240,7 @@ among them, it says it can't tell and stops.
 ## NTR-VC (the frame-sharing viewer)
 
 The bot reads the game picture straight from
-[NTR-VC](https://github.com/Xenon-Hacks/NTR-VC), a fork of NTRViewer-HR
+[NTR-VC](https://github.com/Xenon-Hacks/NTR-VC), our fork of NTRViewer-HR
 that publishes every decoded frame (and the game audio) to shared
 memory. That is the only way the bot gets its picture, so NTR-VC
 can be **minimised, covered or moved anywhere** while the bot runs, and
